@@ -1,0 +1,33 @@
+.header{
+    padding: 5px;
+}
+.header-nav__logo{
+    text-align: start;
+    font-size: 26px;
+    font-weight: bold;
+    color: #005fb7;
+
+}
+.header-nav{
+    text-align: start;
+    font-size: 26px;
+    font-weight: bold;
+    color: #567491;
+}
+.header__menu{
+    color: black;
+    display:flex;
+    flex-direction: column;
+   
+}
+@media (min-width:500px) {
+    .header-container{
+        display: flex;
+    }
+    .header__menu {
+        flex-direction:row;
+        align-items: center;
+        justify-content:space-around;
+        flex: 1;
+    }
+}
